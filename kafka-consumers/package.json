@@ -1,0 +1,22 @@
+{
+  "name": "kafka-consumers",
+  "version": "1.0.0",
+  "description": "Kafka consumers application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "consumers",
+    "kafka"
+  ],
+  "author": "Wisnu Prasojo Widianto",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
